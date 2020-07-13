@@ -6,9 +6,10 @@
  * @license https://github.com/startpl/t2cms-module/blob/master/LICENSE
  */
 
-namespace startpl\t2cms\moduleExample;
+namespace startpl\t2cms\acf;
 
 use t2cms\module\interfaces\IModuleInstall;
+use startpl\t2cms\acf\backend\migrations\ACFMigration;
 
 /**
  * Module install class
@@ -19,14 +20,16 @@ class ModuleInstall implements IModuleInstall
 {    
     public function install(): bool
     {
-        // do something during installation
-        return true;
+        $migration = new ACFMigration();
+        
+        return $migration->safeUp();
     }
     
     public function uninstall(): bool
     {
-        // do something during uninstallation
-        return true;
+        $migration = new ACFMigration();
+        
+        return $migration->safeDown();
     }
     
     public function activate(): bool

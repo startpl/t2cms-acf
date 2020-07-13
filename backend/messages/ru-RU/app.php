@@ -1,0 +1,21 @@
+<?php
+return [
+    'Advanced Custom Fields' => 'Пользовательские поля',
+    'The group is empty' => 'Группа пуста',
+    'WYSIWYG Editor' => 'Визуальный редактор',
+    'Checked' => 'Отмечен',
+    'Multiple' => 'Множественный выбор',
+    'Create Field' => 'Создать поле',
+    'Create Group' => 'Создать группу',
+    'Fields' => 'Поля',
+    'Groups' => 'Группы',
+    'Acf Fields' => 'Поля',
+    'All groups' => 'Группы',
+    'Group Name' => 'Имя группы',
+    'Create Field Group' => 'Создать группу полей',
+    'Field Groups' => 'Группы полей',
+    'Type' => 'Тип',
+    'Name' => 'Название',
+    'Group ID' => 'ID группы',
+    'Description' => 'Описание',
+];

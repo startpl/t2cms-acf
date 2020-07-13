@@ -1,10 +1,10 @@
 <?php
 return [
-    'url'         => 'example-module', // module url
-    'namespace'   => 'startpl\\t2cms\\moduleExample',
-    'name'        => 'example module',
-    'description' => 'The module example',
+    'url'         => 'acf', // module url
+    'namespace'   => 'startpl\\t2cms\\acf',
+    'name'        => 'ACF',
+    'description' => 'Advanced custom fields',
     'version'     => '1.0.0',
-    'fa_icon'     => 'envelope', // fontawesome
+    'fa_icon'     => 'wpforms', // fontawesome
     'author'      => 'Koperdog'
 ];

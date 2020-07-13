@@ -1,33 +1,25 @@
 <?php
 
 /**
- * @link https://github.com/startpl/t2cms-module
+ * @link https://github.com/t2cms/t2cms-core
  * @copyright Copyright (c) 2020 Koperdog
- * @license https://github.com/startpl/t2cms-module/blob/master/LICENSE
+ * @license https://github.com/startpl/t2cms-core/blob/master/LICENSE
  */
 
-namespace startpl\t2cms\moduleExample\backend;
+namespace startpl\t2cms\acf\backend;
 
 /**
- * Regular module of Yii2
+ * Advanced Custom Fields module
  *
  * @author Koperdog <koperdog@dev.gmail.com>
  * @version 1.0
  */
 class Module extends \yii\base\Module
 {
-    const MODULE_NAME = "moduleExample";
+    const MODULE_NAME = "acf";
     
     /**
      * {@inheritdoc}
      */
-    public $controllerNamespace = 'startpl\t2cms\moduleExample\backend\controllers';
-    
-    /**
-     * {@inheritdoc}
-     */
-    public function init()
-    {
-        parent::init();
-    }
+    public $controllerNamespace = 'startpl\t2cms\acf\backend\controllers';
 }
