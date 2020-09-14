@@ -10,9 +10,6 @@
             "email": "koperdog.dev@gmail.com"
         }
     ],
-    "extra": {
-        "bootstrap": "startpl\\t2cms\\acf\\Bootstrap"
-    },
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
