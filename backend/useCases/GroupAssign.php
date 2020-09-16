@@ -42,6 +42,7 @@ class GroupAssign
         try {
             if(!$own = self::getOwn($srcId, $srcType)) {
                 foreach($srcModel->getParents() as $parent) {
+                    if(!is_object($parent)) continue;
                     if($model = self::getOwn($parent->id, $parent::SOURCE_TYPE)) {
                         if($srcNode === 'NODE') {
                             $isSuitable = (bool)$model->apply_subcategories;
